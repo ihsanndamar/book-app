@@ -1,0 +1,81 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "short_summary": "To Kill a Mockingbird is a novel by Harper Lee published in 1960. It follows the story of Scout Finch as she narrates her experiences in a small Alabama town and her father's defense of a black man accused of rape.",
+      "additional_info": "Winner of the Pulitzer Prize for Fiction in 1961."
+    },
+    {
+      "id": 2,
+      "title": "1984",
+      "author": "George Orwell",
+      "short_summary": "1984 is a dystopian novel by George Orwell published in 1949. It depicts a totalitarian society where the government constantly monitors and manipulates the lives of its citizens.",
+      "additional_info": "One of the most famous and influential novels of the 20th century."
+    },
+    {
+      "id": 3,
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "short_summary": "The Great Gatsby is a novel by F. Scott Fitzgerald published in 1925. Set in the Jazz Age, it explores themes of wealth, love, and the American Dream through the eyes of the narrator, Nick Carraway.",
+      "additional_info": "Considered a literary classic and one of the greatest American novels."
+    },
+    {
+      "id": 4,
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "short_summary": "Pride and Prejudice is a novel by Jane Austen, published in 1813. It follows the story of Elizabeth Bennet as she navigates societal norms, love, and the importance of overcoming prejudice. The book is known for its witty dialogue and social commentary.",
+      "additional_info": "One of the most beloved works of English literature."
+    },
+    {
+      "id": 5,
+      "title": "The Lord of the Rings",
+      "author": "J.R.R. Tolkien",
+      "short_summary": "The Lord of the Rings is a fantasy novel by J.R.R. Tolkien, published between 1954 and 1955. It is set in the fictional world of Middle-earth and follows the quest of a group of characters to destroy a powerful ring and defeat the Dark Lord Sauron.",
+      "additional_info": "Considered a classic of fantasy literature."
+    },
+    {
+      "id": 6,
+      "title": "The Madonna in a Fur Coat",
+      "author": "Sabahattin Ali",
+      "short_summary": "The Madonna in a Fur Coat is a novel by Sabahattin Ali, published in 1943. The book tells the story of a short-lived love affair and delves into the depths of love, passion, and loneliness, while depicting one's struggle with their inner world.",
+      "additional_info": "One of the important works of Turkish literature."
+    },
+    {
+      "id": 7,
+      "title": "The Devil Within Us",
+      "author": "Sabahattin Ali",
+      "short_summary": "The Devil Within Us is a novel by Sabahattin Ali, published in 1940. The book explores the inner conflicts of a person, the struggle between good and evil, while questioning societal issues.",
+      "additional_info": "One of the significant works by Sabahattin Ali."
+    },
+    {
+      "id": 8,
+      "title": "Lord of the Flies",
+      "author": "William Golding",
+      "short_summary": "Lord of the Flies is a novel by William Golding, published in 1954. The book follows a group of British boys stranded on an island who go beyond the ordinary and create their own society, while discovering the inherent savagery within themselves.",
+      "additional_info": "One of Golding's most famous works and considered a modern classic."
+    },
+    {
+      "id": 9,
+      "title": "Istanbul Noir",
+      "author": "Ahmet Ümit",
+      "short_summary": "Istanbul Noir is a novel by Ahmet Ümit, published in 2005. The book unravels the mystery behind a murder case while tracing the history and cultural fabric of Istanbul, skillfully blending elements of crime fiction and history.",
+      "additional_info": "One of the popular works by Ahmet Ümit."
+    },
+    {
+      "title": "Yusuf of Kuyucak",
+      "author": "Sabahattin Ali",
+      "additional_info": "A significant work by Sabahattin Ali.",
+      "short_summary": "Yusuf of Kuyucak is a novel by Sabahattin Ali, published in 1937. The book, with its simple narrative, explores Yusuf's inner world and his struggle with societal expectations and personal desires.",
+      "id": 10
+    },
+    {
+      "title": "new",
+      "author": "new",
+      "additional_info": "new a",
+      "short_summary": "newa",
+      "id": 11
+    }
+  ]
+}
