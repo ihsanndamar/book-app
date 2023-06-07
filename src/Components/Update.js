@@ -3,6 +3,7 @@ import useFetch from "../Hooks/useFetch";
 import { useParams } from "react-router-dom";
 import useUpdate from "../Hooks/useUpdate";
 import ErrorBar from "./ErrorBar";
+import { useNavigate } from "react-router-dom";
 
 const Update = () => {
   let { id } = useParams();
@@ -12,8 +13,8 @@ const Update = () => {
   const [author, setAuthor] = useState("");
   const [additional_info, setInfo] = useState("");
   const [short_summary, setSummary] = useState("");
-
-  const { response, error: errorUpdate, handleSubmit } = useUpdate({title,author,additional_info,short_summary},id);
+  const navigate = useNavigate();
+  const { response, error: errorUpdate, handleSubmit, isDone } = useUpdate({title,author,additional_info,short_summary},id);
   
   useEffect(() => {
     if (book) {
@@ -34,8 +35,14 @@ const Update = () => {
     return <div>Error: {error.message}</div>;
   }
 
+  //if it is successfully updated, navigate to the detail page
+  if (isDone) {
 
-console.log(additional_info)
+    navigate('/book/'+id);
+  }
+
+    
+
   return (
     <div className="update">
 

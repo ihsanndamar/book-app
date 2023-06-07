@@ -1,5 +1,6 @@
 import { useState,useHistory } from "react";
 import useCreate from "../Hooks/useCreate";
+import { useNavigate } from 'react-router-dom';
 
 
 
@@ -8,13 +9,22 @@ const Create = () => {
     const [author, setAuthor] = useState("");
     const [additional_info, setInfo] = useState("");
     const [short_summary, setSummary] = useState("");
+    const navigate = useNavigate();
+
     const book = {
         title,
         author,
         additional_info,
         short_summary
       };
-    const { response, error, handleSubmit } = useCreate(book);
+    const { response, error, handleSubmit, isDone } = useCreate(book);
+
+    //if it is successfully updated, navigate to the detail page
+    if (isDone) {
+        return navigate('/book/'+response.id);
+    }
+
+
 
     return ( 
         <div className="create">
